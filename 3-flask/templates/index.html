@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flask App</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 60px 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: #38bdf8;
+            color: #0f172a;
+            font-weight: bold;
+        }
+
+        .primary:hover {
+            background: #0ea5e9;
+            transform: translateY(-2px);
+        }
+
+        .secondary {
+            border: 1px solid #64748b;
+            color: white;
+        }
+
+        .secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Welcome to <span>My Flask App</span></h1>
+
+            <p>
+                A simple and modern web application built using
+                <strong>Python</strong> and <strong>Flask</strong>.
+            </p>
+
+            <div class="buttons">
+                <a href="#" class="btn primary">Get Started</a>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Built with Flask 🚀
+        </div>
+
+    </div>
+
+</body>
+</html>
