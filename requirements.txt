@@ -7,3 +7,28 @@ flask
 memory_profiler
 streamlit
 scikit-learn
+
+# Code formatting / linting
+black
+isort
+
+# LangChain / Agentic AI
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langgraph
+langsmith
+
+# Vector database
+pinecone
+
+# Web search
+tavily-python
+
+# Useful AI packages
+openai
+huggingface-hub
+sentence-transformers
+faiss-cpu
+chromadb
